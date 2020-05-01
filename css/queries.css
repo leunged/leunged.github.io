@@ -1,0 +1,126 @@
+/* Big tablets to 1200px (widths smaller than the 1140px row) */
+
+@media only screen and (max-width: 1200px) {
+    .name-text-box {
+        width: 80%;
+        margin-left: 15%;
+    }
+    
+    .row { padding: 0 2%; }
+    
+    article { padding: 50px; }
+    
+    img { width: 100%; }
+    
+    .description { padding-left: 60px; }
+    
+}
+
+/* Small tablets to big tablets: from 768 to 1024px */
+
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    
+    article { padding: 50px 0px; }
+    
+    img {
+        width: 100%;
+        height: 300px;
+    }
+    
+    section { padding: 30px; }
+
+}
+
+/* Small phones to small tablets: from 481 to 767px */
+
+@media only screen and (max-width: 767px) {
+    .name-text-box {
+        width: 80%;
+        margin-left: 15%;
+    }
+    
+    body { font-size: 16px; }
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    .main-nav { display: none; }
+    
+    .mobile-nav-icon { display: inline-block; }
+    
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 15px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 16px 0px; }
+    .sticky .mobile-nav-icon { margin: 10px; }
+    .sticky .mobile-nav-icon i { color : #555; }
+    
+    img {
+        width: 80%;
+        height: 400px;
+        margin: 0 10%;
+    }
+    
+    .description { padding-left: 10%; }
+    
+    section { padding: 30px 2%; }
+
+}
+
+/* Small phones: from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+    .main-nav {
+        display: none;
+    }
+    
+    body { font-size: 14px; }
+    
+    .name-text-box {
+        width: 80%;
+        top: 25%;
+        margin-left: 10%;
+    }
+    
+    img {
+        height: 280px;
+        margin-bottom: 5%;
+    }
+    
+    .description {
+        padding-right: 10%;
+    }
+    
+    section { padding: 25px 0; }
+}
+
+
+
+
+
+
+
+
