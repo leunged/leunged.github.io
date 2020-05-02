@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Virtual Slot Machine</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <h1>The Virtual Slot Machine!</h1>
+        <form action="index.php" method="POST">
+            <div>
+                <img src="cherry.png" height="200" width="200">
+                <img src="cherry.png" height="200" width="200">
+                <img src="cherry.png" height="200" width="200"><br>
+                Name:<input type="text" name="name"><br><br>
+                Bet:<input type="number" name="bet"><br><br>
+                Credit:<input type="text" name="credit" value="100" readonly="true"><br><br>
+                <input type="submit" value="SPIN">
+            </div>        
+        </form>
+    </body>
+</html>

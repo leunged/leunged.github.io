@@ -84,6 +84,15 @@
         margin: 0 10%;
     }
     
+    .first-project img {
+        width: 540px;
+        height: 325px;
+    }
+    
+    .second-project img {
+        width: 540px;
+    }
+    
     .description { padding-left: 10%; }
     
     section { padding: 30px 2%; }

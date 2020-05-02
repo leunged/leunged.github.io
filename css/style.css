@@ -150,17 +150,66 @@ aside {
     padding-bottom: 5%;
 }
 
+.first-project img {
+    width: 90%;
+    height: 300px;
+}
+
 .second-project {
     padding: 5% 0;
+}
+
+.second-project img {
+    width: 90%;
 }
 
 .third-project {
     padding: 5% 0;
 }
 
+.third-project img {
+    width: 90%;
+}
+
 article:nth-child(odd) {
     background: #f8f8f8;
     border: 1px solid #e8e8e8;
+}
+
+.section-projects li {
+    list-style: none;
+    font-size: 80%;
+    margin: 10px 0;
+}
+
+.skills {
+    color: #747fe0;
+    font-size: 90%;
+    word-spacing: 10px;
+}
+
+.description p {
+    margin-top: 15px;
+}
+
+.description i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+button {
+    font-family: 'Roboto';
+    background-color: #ffffff;
+    color: #747fe0;
+    font-size: 15px;
+    margin-top: 50px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #99a2eb;
 }
 
 /* ------------------------------------------------ */
@@ -297,3 +346,10 @@ i.fa-angle-double-down {
     font-size: 250%;
 }
 */
+
+
+
+
+
+
+
