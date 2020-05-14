@@ -85,15 +85,15 @@
     }
     
     .first-project img {
-        width: 85%;
+        width: 77%;
     }
     
     .second-project img {
-        width: 85%;
+        width: 80%;
     }
     
      .third-project img {
-        width: 85%;
+        width: 80%;
     }
     
     .description { padding-left: 10%; }
@@ -120,6 +120,21 @@
     img {
         height: 280px;
         margin-bottom: 5%;
+    }
+
+    .first-project img {
+        width: 80%;
+        height: 220px;
+    }
+    
+    .second-project img {
+        width: 80%;
+        height: 210px;
+    }
+    
+     .third-project img {
+        width: 80%;
+        height: 240px;
     }
     
     .description {
