@@ -210,6 +210,10 @@ button:first-child {
     margin-right: 30px;
 }
 
+input:focus {
+    outline:none !important;
+}
+
 button {
     font-family: 'Roboto';
     background-color: #ffffff;
