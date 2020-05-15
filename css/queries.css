@@ -32,6 +32,35 @@
 
 }
 
+@media only screen and (max-width: 910px) {
+    button{
+        font-size: 13px;
+        padding: 8px 8px;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    button{
+        font-size: 13px;
+        padding: 8px 8px;
+    }
+
+    button:first-child {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    button{
+        font-size: 13px;
+        padding: 8px 8px;
+    }
+
+    button:first-child {
+        margin-right: 17px;
+    }
+}
+
 /* Small phones to small tablets: from 481 to 767px */
 
 @media only screen and (max-width: 767px) {
@@ -82,6 +111,10 @@
         width: 80%;
         height: 80%;
         margin: 0 10%;
+    }
+
+    button:first-child {
+        margin-right: 30px;
     }
     
     .first-project img {

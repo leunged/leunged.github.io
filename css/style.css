@@ -206,16 +206,20 @@ article:nth-child(odd) {
     text-decoration: none;
 }
 
+button:first-child {
+    margin-right: 30px;
+}
+
 button {
     font-family: 'Roboto';
     background-color: #ffffff;
     color: #747fe0;
     font-size: 15px;
     margin-top: 60px;
-    margin-right: 40px;
     padding: 10px 10px;
     border-radius: 5px;
     cursor: pointer;
+    display: inline-block;
 }
 
 button:hover {
