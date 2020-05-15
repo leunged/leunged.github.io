@@ -83,6 +83,10 @@ h3 {
     margin-bottom: 5%;
 }
 
+h4 {
+    font-size: 120%;
+}
+
 .name-text-box {
     position: absolute;
     top: 35%;
@@ -198,12 +202,17 @@ article:nth-child(odd) {
     margin-right: 10px;
 }
 
+.description a {
+    text-decoration: none;
+}
+
 button {
     font-family: 'Roboto';
     background-color: #ffffff;
     color: #747fe0;
     font-size: 15px;
-    margin-top: 50px;
+    margin-top: 60px;
+    margin-right: 40px;
     padding: 10px 10px;
     border-radius: 5px;
     cursor: pointer;
