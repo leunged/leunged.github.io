@@ -212,6 +212,7 @@ button:first-child {
 
 input:focus {
     outline:none !important;
+    
 }
 
 button {
